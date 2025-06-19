@@ -1,0 +1,163 @@
+body { 
+background-color: white; 
+color: #15254d; 
+padding: 10px; 
+margin: 0px;
+}
+
+table { 
+    border: black 1px solid;
+    margin:10px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+th { 
+    background-color: rgb(237, 141, 237); 
+    margin: 0px;
+    padding: 10px;
+}
+
+td { 
+    background-color: mintcream; 
+    margin: 0px;
+    padding: 10px;
+}
+
+header { 
+background-color:white ;
+padding: 40px;
+margin-bottom: 10px;
+text-align: center;
+font-size: 35px;
+color: #ba5daf;
+letter-spacing: 1px;
+font-weight: 500;
+
+}
+
+
+header h1 { 
+    font-size: 60x;
+    border: 20px;
+
+font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal; 
+}
+
+
+header h1:hover {
+    background-image: url("images-02/plum fruit.jpeg");
+  
+}
+
+
+header h2 { 
+    font-size: 40px;
+    text-shadow: 20px solid white;
+    letter-spacing: 2px;
+    margin: 2px;
+ 
+  font-family: "Lily Script One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+   
+}
+
+
+
+nav { 
+background-color: #ba5daf;
+padding: 40px 20px 40px 20px; 
+text-align: center;
+
+}
+
+nav a { 
+    font-size: 25px; 
+    font-weight: 500;
+    text-transform: uppercase; 
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 20px; 
+        padding: 20px;
+    border: purple 1px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+nav a:hover { 
+    color: plum;
+}
+
+main { 
+background-color: rgb(252, 231, 248);
+padding: 20px; 
+text-align: left;
+margin: 10px 0px;
+
+}
+
+main img { 
+    margin: 30px;
+
+}
+
+main h2{ 
+font-size: 30px;
+font-style: bold; 
+text-transform:none; 
+margin: 0px;
+color: #ba5daf;
+padding: 10px, 1px;
+letter-spacing: 1px;
+text-align: left;
+
+ font-family: "Titan One", sans-serif;
+  font-weight: 400;
+ 
+}
+
+main h3 { 
+    color: #ba5daf; 
+    letter-spacing: 1px;
+
+}
+main p { 
+font-size: 20px; 
+margin: 15px 5px;
+color:black; 
+line-height: 1.5;
+
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+footer { 
+background-color: white;
+padding: 20px;
+text-align: left;
+border: 2px #ba5daf solid;
+
+}
+
+footer a { 
+  text-decoration: none;  
+  color: grey;
+
+    font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+  letter-spacing: 1px;
+}
+
+footer a:hover {
+    color: #ba5daf
+}
