@@ -1,0 +1,68 @@
+/* START border-box fix */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+
+.wrapper {
+  background: white;
+  /* grid layout parent */
+  display: grid;
+  /* create 12 col layout */
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* padding on immediate children of wrapper */
+
+.wrapper>* {
+  padding: 20px;
+}
+
+header {
+  background: skyblue;
+  /* span all 12 cols*/
+  grid-column: 1 / 13;
+  text-align: center;
+}
+main {
+  background: rgb(166, 222, 244);
+  /* span 6 cols */
+  grid-column: 3 / 9;
+}
+nav {
+  background: rgb(153, 224, 228);
+  /* span 3 cols */
+  grid-column: 1 / 3;
+}
+aside {
+  background: rgb(193, 238, 226);
+  /* span 3 cols */
+  grid-column: 9/ 13;
+}
+/* span 2 rows */
+main,
+nav,
+aside {
+  grid-row: 2 / 4;
+}
+
+footer {
+  background: rgb(234, 233, 238);
+  /* span all 12 cols*/
+  grid-column: 1 / 13;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 20px;;
+}
